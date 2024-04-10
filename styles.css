@@ -1,5 +1,5 @@
 body {
-    background-image: url(FondoWeb.png);
+    background-image: url(FondoWeb03.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,47 +27,103 @@ nav a {
 }
 
 article {
-    justify-content: center;
+    /*justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
-    max-width: 750px;
+    text-align: center;*/
+    padding: 5px;
+    max-width: 550px;
     margin: 15px auto;
-    background-color: rgb(0, 126, 125);
+    background-color: #007e7d;
+}
+
+/*.p_titulo {
+    color: #ffffff;
+    margin-left: 5%;
+}*/
+
+h2 {
+    color: #ffffff;
+    margin-left: 5%;
 }
 
 h3{
     text-align: center;
+    line-height: 40px;
     margin: auto;
-    width: 250px;
+    width: 170px;
+    height: 40px;
     padding: 5px;
+    
     color: #7DAD52;
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     background-color: #003F3E;
 }
 
-h2 {
-    color: #333;
+#p_p_texto {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    border-style: inset;
+    border-color: #000000 #ffffff #cccccc #000000;
+    background-color: #ffffff;
+
+    max-width: 500px;
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;
+    color: #222222;
 }
 
-p {
-    text-align: left;
-    color: #ffffff;
+.p_contenido {
+    padding: 10px;
+
+    background-color: #007E7D;
+    max-width: 100%;
+
+    border-style: groove;
 }
 
 #publicaciones {
+    
+    border-style: outset;
+    border-color: #6d6d6d;
+    background-color: #1a1a1a;
+}
+
+#publicaciones img[src="Img01.png"] {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+/*************************************************/
+
+.s_contenido {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
-  
-  #publicaciones img[src="Cartoon color ver 5.png"] {
-    display: block;
-    min-width: 550px;
-    min-height: 550px;
-    max-width: 80%;
-    max-height: 80%;
-  }
+
+    margin: 20px;
+}
+
+p {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+    border-style: inset;
+    border-color: #000000 #ffffff #cccccc #000000;
+    background-color: #ffffff;
+
+    max-width: 500px;
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;
+    color: #222222;
+}
